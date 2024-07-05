@@ -11,6 +11,7 @@ $ git clone https://github.com/Jojo09092007/UPDATE-KODAK-3D-PRINTER.git
 $ cd UPDATE-KODAK-3D-PRINTER-main
 $ nixos-rebuild switch --flake .#akamanto
 ```
+reboot after, if necessary
 
 ## General notes
 This is a copy of a old config with raspberry pi 3 support from ar (see link)
