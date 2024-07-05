@@ -8,7 +8,8 @@ You should use `nixos-rebuild` locally:
 $ sudo -s
 $ nix-env -iA nixos.pkgs.gitAndTools.gitFull
 $ git clone https://github.com/Jojo09092007/UPDATE-KODAK-3D-PRINTER.git
-$ nixos-rebuild switch --flake .#microlith
+$ cd UPDATE-KODAK-3D-PRINTER-main
+$ nixos-rebuild switch --flake .#akamanto
 ```
 
 ## General notes
