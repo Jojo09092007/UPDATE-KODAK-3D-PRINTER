@@ -14,7 +14,7 @@ $ nixos-rebuild switch --flake .#akamanto
 reboot after, if necessary
 
 ## General notes
-- This is a copy of an old config with raspberry pi 3 support from ar. (see link)
+- This is a copy of an old config with raspberry pi 3 support from ar. (Link 5)
 - She changed to a rpi5, so you can't use her repo anymore, here is her documentation. (Link 3)
 - In the archive of the site, there are also the old original files of the Kodak Portrait 3D Printer. (Link 4)
 * I couldn't flash them successfully.
@@ -30,7 +30,9 @@ use it just because it's already here.
 2. https://etcher.balena.io/
 3. https://wiki.hackerspace.pl/infra:tools:kodakportrait
 4. https://cloud.is-a.cat/s/NsaCHnyDMn8cFWE
-https://wiki.nixos.org/wiki/NixOS_on_ARM/Raspberry_Pi_3
+5. https://github.com/arachnist/nibylandia/tree/251448dd13d61c8fa925592305783edb28f5fa8c
+- Might be useful: https://wiki.nixos.org/wiki/NixOS_on_ARM/Raspberry_Pi_3
+
 - More general issues:
 https://wiki.nixos.org/wiki/NixOS_on_ARM/Raspberry_Pi
 
