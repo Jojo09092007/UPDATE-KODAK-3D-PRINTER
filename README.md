@@ -38,5 +38,5 @@ https://wiki.nixos.org/wiki/NixOS_on_ARM/Raspberry_Pi
 
 ## Persistent Issues
 Booting will not show the console
-Fix: restart after x minutes OR unplug and replug the HDMI cable inside the 3D Printer OR connect a new display to it and reboot
+- (Maybe permanent) Fix: restart after x minutes OR unplug and replug the HDMI cable inside the 3D Printer OR connect a new display to it and reboot
 
