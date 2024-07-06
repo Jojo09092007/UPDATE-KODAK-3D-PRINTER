@@ -17,7 +17,7 @@ reboot after, if necessary
 - This is a copy of an old config with raspberry pi 3 support from ar. (see link)
 - She changed to a rpi5, so you can't use her repo anymore, here is her documentation. (Link 3)
 - In the archive of the site, there are also the old original files of the Kodak Portrait 3D Printer. (Link 4)
-* I couldn't flash them successfully. *
+* I couldn't flash them successfully.
 - I hope the before mentioned method works. DIDN'T TEST IT YET!!!
 
 Feel free to use this as a basis for your own configuration flakes, the general state might not reflect best
@@ -31,7 +31,7 @@ use it just because it's already here.
 3. https://wiki.hackerspace.pl/infra:tools:kodakportrait
 4. https://cloud.is-a.cat/s/NsaCHnyDMn8cFWE
 https://wiki.nixos.org/wiki/NixOS_on_ARM/Raspberry_Pi_3
-More general issues:
+- More general issues:
 https://wiki.nixos.org/wiki/NixOS_on_ARM/Raspberry_Pi
 
 ## Persistent Issues
