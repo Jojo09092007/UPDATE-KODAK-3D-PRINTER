@@ -1,8 +1,8 @@
 ### Deploying new configurations
-Install nix-os sd card image (just download the newest version) https://hydra.nixos.org/job/nixos/release-24.05/nixos.sd_image.aarch64-linux
-flash it with balena etcher to your sd card https://etcher.balena.io/
-put the sd card into the rpi, turn on, wait for it to boot (you might get a flashing display -> wait for 15 minutes -> switch off and back on -> voilà) you should see a command window now.
-Run these commands.
+1. Download nix-os sd card image. (just download the newest version) (Link 1)
+2. Flash it with balena etcher to your sd card. (Link 2)
+3. Put the sd card into the rpi, turn it on, wait for it to boot (you might get a flashing display -> wait for 15 minutes -> switch off and back on -> voilà) you should see a command window now.
+4. Run these commands.
 You should use `nixos-rebuild` locally:
 ```
 $ sudo -s
@@ -26,6 +26,9 @@ something (and there are some code crimes commited here), don't feel obliged to
 use it just because it's already here.
 
 ## Additional Documents
+1. https://hydra.nixos.org/job/nixos/release-24.05/nixos.sd_image.aarch64-linux
+2. https://etcher.balena.io/
+
 https://wiki.nixos.org/wiki/NixOS_on_ARM/Raspberry_Pi_3
 More general issues:
 https://wiki.nixos.org/wiki/NixOS_on_ARM/Raspberry_Pi
