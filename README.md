@@ -27,3 +27,10 @@ something (and there are some code crimes commited here), don't feel obliged to
 use it just because it's already here.
 ## Additional Documents
 https://wiki.nixos.org/wiki/NixOS_on_ARM/Raspberry_Pi_3
+More general issues:
+https://wiki.nixos.org/wiki/NixOS_on_ARM/Raspberry_Pi
+
+###Persistent Issues
+Booting will not show the console
+Fix: restart after x minutes OR unplug and replug the HDMI cable inside the 3D Printer OR connect a new display to it and reboot
+
