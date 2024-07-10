@@ -110,8 +110,8 @@ in {
     wireless = {
       enable = true;
       environmentFile = "/etc/wifi-secrets";
-      networks."hackerspace.pl-guests".psk = "@HSWAW_WIFI@";
-      networks."hackerspace.pl-guests-5G".psk = "@HSWAW_WIFI@";
+      networks."lehrernetz".psk = "?!NurFuerUns!?";
+      networks."3D".psk = "dreiddruck";
     };
   };
   networking.firewall.enable = false;
