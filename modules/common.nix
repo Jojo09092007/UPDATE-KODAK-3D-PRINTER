@@ -160,17 +160,18 @@ in {
     openssh.authorizedKeys.keys = meta.users.ar;
   };
 
-  console.keyMap = "us";
+  console.keyMap = "de";
   i18n = {
-    defaultLocale = "en_CA.UTF-8";
+    defaultLocale = "de_DE.UTF-8";
     supportedLocales = [
       "en_CA.UTF-8/UTF-8"
       "en_US.UTF-8/UTF-8"
       "en_DK.UTF-8/UTF-8"
       "pl_PL.UTF-8/UTF-8"
+      "de_DE.UTF-8/UTF-8"
     ];
   };
-  time.timeZone = "Europe/Warsaw";
+  time.timeZone = "Europe/Berlin";
 
   systemd.network = {
     enable = true;
