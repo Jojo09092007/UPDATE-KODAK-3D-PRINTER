@@ -30,6 +30,7 @@ $ date -s JJJJ-MM-DD
 $ nix-env -iA nixos.pkgs.gitAndTools.gitFull
 $ git clone https://github.com/Jojo09092007/UPDATE-KODAK-3D-PRINTER.git
 $ cd UPDATE-KODAK-3D-PRINTER
+$ chmod +x *
 $ nixos-rebuild switch --flake .#akamanto
 ```
 reboot after, if necessary
