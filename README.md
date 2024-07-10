@@ -28,7 +28,7 @@ sudo nixos-rebuild switch
 $ sudo -s
 $ nix-env -iA nixos.pkgs.gitAndTools.gitFull
 $ git clone https://github.com/Jojo09092007/UPDATE-KODAK-3D-PRINTER.git
-$ cd UPDATE-KODAK-3D-PRINTER-main
+$ cd UPDATE-KODAK-3D-PRINTER
 $ nixos-rebuild switch --flake .#akamanto
 ```
 reboot after, if necessary
