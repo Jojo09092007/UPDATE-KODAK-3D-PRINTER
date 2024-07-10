@@ -180,7 +180,7 @@ in {
       (glibcLocales.override {
         allLocales = false;
         locales =
-          [ "en_US.UTF-8/UTF-8" "en_CA.UTF-8/UTF-8" "en_DK.UTF-8/UTF-8" ];
+          [ "en_US.UTF-8/UTF-8" "en_CA.UTF-8/UTF-8" "en_DK.UTF-8/UTF-8" "de_DE.UTF-8/UTF-8" ];
       })
 
       # nice-to-haves
