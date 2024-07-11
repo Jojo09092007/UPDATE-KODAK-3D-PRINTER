@@ -2,8 +2,9 @@
 1. Download nix-os sd card image. (just download the newest version) (Link 1)
 2. Flash it with balena etcher to your sd card. (Link 2)
 3. Put the sd card into the rpi, turn it on, wait for it to boot (you might get a flashing display -> wait for 15 minutes -> switch off and back on -> voilà) you should see a command window now.
-4. Run these commands. To create a swap file, because the ram isn't enough.
+4. Run these commands. To change keyboard layout. To create a swap file, because the ram isn't enough. 
 ```
+$ loadkeys de
 $ sudo fallocate -l 2G /swapfile
 $ sudo chmod 600 /swapfile
 $ sudo mkswap /swapfile
