@@ -22,8 +22,6 @@ in {
     buildOnTarget = true;
   };
 
-  age.secrets.nix-store.file = ../secrets/nix-store.age;
-
   boot.binfmt.emulatedSystems =
     lib.lists.remove pkgs.system [ "x86_64-linux" "aarch64-linux" ];
   programs.command-not-found.enable = false;
