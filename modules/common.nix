@@ -75,17 +75,6 @@ in {
     '';
     settings = {
       trusted-users = [ "ar" "root" ];
-      substituters = (if config.networking.hostName != "scylla" then
-        [
-          "ssh://nix-ssh@scylla.tail412c1.ts.net?trusted=1&ssh-key=${config.age.secrets.nix-store.path}"
-        ]
-      else
-        [ ]) ++ (if config.networking.hostName != "zorigami" then
-          [
-            "ssh://nix-ssh@zorigami.tail412c1.ts.net?trusted=1&ssh-key=${config.age.secrets.nix-store.path}"
-          ]
-        else
-          [ ]);
       trusted-substituters = config.nix.settings.substituters;
     };
   };
