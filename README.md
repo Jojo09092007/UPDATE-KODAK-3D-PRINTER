@@ -47,6 +47,7 @@ Feel free to use this as a basis for your own configuration flakes, the general 
 practices. Use caution, and if you feel like you don't really understand
 something (and there are some code crimes commited here), don't feel obliged to
 use it just because it's already here.
+For Contact(I will take my time): Open an Issue.
 
 ## Additional Documents
 1. https://hydra.nixos.org/job/nixos/release-24.05/nixos.sd_image.aarch64-linux
