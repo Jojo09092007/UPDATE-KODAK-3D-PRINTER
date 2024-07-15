@@ -4,7 +4,7 @@
 3. Put the sd card into the rpi, turn it on, wait for it to boot (you might get a flashing display -> wait for 15 minutes -> switch off and back on -> voilà) you should see a command window now.
 4. Run these commands. To change keyboard layout. To create a swap file, because the ram isn't enough. 
 ```
-$ loadkeys de
+$ loadkeys de "Optional, if you want to change keyboard layout"
 $ sudo fallocate -l 2G /swapfile
 $ sudo chmod 600 /swapfile
 $ sudo mkswap /swapfile
