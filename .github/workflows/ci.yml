@@ -1,4 +1,5 @@
 name: CI
+
 on:
   push:
     branches: [main]
@@ -24,6 +25,7 @@ jobs:
                     builtins.toJSON (f (builtins.getFlake(builtins.toString ./.)).outputs.nixosConfigurations)'
             echo ""
           }  >> "$GITHUB_OUTPUT"
+
   x86_64-linux:
     if: "!contains(github.event.head_commit.message, '[skip-ci x64]')"
     runs-on: self-hosted-x86_64-linux
