@@ -75,7 +75,6 @@ in {
     '';
     settings = {
       trusted-users = [ "ar" "root" ];
-      trusted-substituters = config.nix.settings.substituters;
     };
   };
   nixpkgs.config.allowUnfree = true;
